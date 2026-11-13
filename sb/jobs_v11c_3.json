@@ -1,0 +1,530 @@
+[
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "dp_reset": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_dp",
+  "scenario": "building_train_8__fairbanks_8"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "dp_reset": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_dp",
+  "scenario": "building_train_1__fairbanks_1"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "dp_reset": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_dp",
+  "scenario": "building_train_4__denver_2"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "dp_reset": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_dp",
+  "scenario": "building_train_2__fairbanks_2"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "cool_glide": 1,
+   "m2_rate": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_cg",
+  "scenario": "building_train_8__phoenix_4"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "cool_glide": 1,
+   "m2_rate": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_cg",
+  "scenario": "building_train_8__singapore_7"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "cool_glide": 1,
+   "m2_rate": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_cg",
+  "scenario": "building_train_7__atlanta_8"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "cool_glide": 1,
+   "m2_rate": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_cg",
+  "scenario": "building_train_1__phoenix_5"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_j.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "water_idle": 310.0,
+   "water_idle_h": 6.0
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_wi",
+  "scenario": "building_train_8__phoenix_4"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_j.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "water_idle": 310.0,
+   "water_idle_h": 6.0
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_wi",
+  "scenario": "building_train_8__singapore_7"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_j.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "water_idle": 310.0,
+   "water_idle_h": 6.0
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_wi",
+  "scenario": "building_train_7__atlanta_8"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_j.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "water_idle": 310.0,
+   "water_idle_h": 6.0
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_wi",
+  "scenario": "building_train_1__phoenix_5"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "guard": 0.0
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_g0",
+  "scenario": "building_train_8__phoenix_4"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "guard": 0.0
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_g0",
+  "scenario": "building_train_8__singapore_7"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "guard": 0.0
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_g0",
+  "scenario": "building_train_7__atlanta_8"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "guard": 0.0
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_g0",
+  "scenario": "building_train_1__phoenix_5"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -20.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_f20",
+  "scenario": "building_train_8__fairbanks_8"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -20.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_f20",
+  "scenario": "building_train_1__fairbanks_1"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -20.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_f20",
+  "scenario": "building_train_4__denver_2"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -20.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_f20",
+  "scenario": "building_train_2__fairbanks_2"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "cool_glide": 1,
+   "m2_rate": 1,
+   "cool_guard": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_cgg",
+  "scenario": "building_train_8__phoenix_4"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "cool_glide": 1,
+   "m2_rate": 1,
+   "cool_guard": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_cgg",
+  "scenario": "building_train_8__singapore_7"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "cool_glide": 1,
+   "m2_rate": 1,
+   "cool_guard": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_cgg",
+  "scenario": "building_train_7__atlanta_8"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "cool_glide": 1,
+   "m2_rate": 1,
+   "cool_guard": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_cgg",
+  "scenario": "building_train_1__phoenix_5"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "f_heat_rec": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_rec45",
+  "scenario": "building_train_8__fairbanks_8"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "f_heat_rec": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_rec45",
+  "scenario": "building_train_1__fairbanks_1"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "f_heat_rec": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_rec45",
+  "scenario": "building_train_4__denver_2"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_i.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "f_heat_rec": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_rec45",
+  "scenario": "building_train_2__fairbanks_2"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c",
+  "scenario": "building_train_4__phoenix_8"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c",
+  "scenario": "building_train_4__singapore_3"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c",
+  "scenario": "building_train_5__atlanta_6"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c",
+  "scenario": "building_train_5__denver_3"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c",
+  "scenario": "building_train_5__fairbanks_5"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c",
+  "scenario": "building_train_5__phoenix_1"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c",
+  "scenario": "building_train_5__singapore_4"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c",
+  "scenario": "building_train_7__atlanta_8"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c",
+  "scenario": "building_train_7__denver_5"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c",
+  "scenario": "building_train_7__fairbanks_7"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c",
+  "scenario": "building_train_7__phoenix_3"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c",
+  "scenario": "building_train_7__singapore_6"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "boost_k": 0.5
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_bk05",
+  "scenario": "building_train_8__fairbanks_8"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "boost_k": 0.5
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_bk05",
+  "scenario": "building_train_1__fairbanks_1"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "boost_k": 0.5
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_bk05",
+  "scenario": "building_train_4__denver_2"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_floor": -12.0,
+   "margin_cool": 0.25,
+   "f_heat_safety": 0.45,
+   "boost_k": 0.5
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/v11c_bk05",
+  "scenario": "building_train_2__fairbanks_2"
+ }
+]

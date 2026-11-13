@@ -1,0 +1,14 @@
+ef7f726da2938dbeabd2705455d5f9a17be17e3dc976dabd92128073fe694b38  buildings/building_7901.yaml  (slot 1, duluth_jan29)
+1a346dbb6fd4c73d8840ed7a591a22438be7c7d420280d1c2d55b05899e1dbc7  buildings/building_7902.yaml  (slot 2, helena_dec10)
+# seed 7903 rejected by the generator's own check: ValueError: seed 7903 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 2.56 m2): room_163 2.56 m2. A zone this small is a floor plan artifact, not a room, and it diverges in simulatio
+f6477acf6ad1c47d13daa210c3ae000e732c9573881ae2d2f488fdbf8a7cb859  buildings/building_7907.yaml  (slot 3, chicago_jan08)
+d973cb298cc36e8ba1694d16e13bccb4e4065ba7e3d5f4a04c0fb6b01cee7b67  buildings/building_7904.yaml  (slot 4, newyork_feb12)
+# seed 7905 rejected by the generator's own check: ValueError: seed 7905 produces 2 zone(s) below the 20.0 m2 minimum floor area (smallest 3.80 m2): room_38 3.80 m2, room_37 4.60 m2. A zone this small is a floor plan artifact, not a room, and it diver
+f06585f147e6120a3578dcd7097b9703513baa37043bfc4f96f20d0b9e989b0d  buildings/building_7908.yaml  (slot 5, seattle_dec10)
+474d487722d41454064dc14b61745f3bfcd4558481c7e3247a432b643047b751  buildings/building_7906.yaml  (slot 6, sanfrancisco_feb05)
+151abff42bb80f68fa176799dd2c0a6ae6af6beada0339b60f9e366b9b981ed0  scenarios/building_7901/duluth_jan29/config.gin
+a24b354de56711cc1d65d4cf0088d06834dc54f30d4da03324431473a6181906  scenarios/building_7902/helena_dec10/config.gin
+84a2a50a750353c345d0aaebbda19666677482c7bfe9656a4996d1cf4ac20936  scenarios/building_7904/newyork_feb12/config.gin
+babdacdce445d4461584f42404f41d8011972507332c4db3da2cd9bb525803b6  scenarios/building_7906/sanfrancisco_feb05/config.gin
+09e92d47ebb192f879015ae0a07296071082e369a0e3d003dc33d8c7d063ac12  scenarios/building_7907/chicago_jan08/config.gin
+54a90b05d0aac4ca7eabf906a3fa610ed4bf69ec192e3575969d7130f3b1a85c  scenarios/building_7908/seattle_dec10/config.gin

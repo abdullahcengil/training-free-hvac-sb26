@@ -1,0 +1,72 @@
+[
+ {
+  "policy": "baseline:pid_water",
+  "base": "none",
+  "out": "D:/SmartBuildings_data/results/tankfix/pid_water_stressjan",
+  "scenario": "building_train_1__chicago_jan15",
+  "root": "D:/SmartBuildings_data/stress/scenarios"
+ },
+ {
+  "policy": "baseline:pid_water",
+  "base": "none",
+  "out": "D:/SmartBuildings_data/results/tankfix/pid_water_stressjan",
+  "scenario": "building_train_5__chicago_jan15",
+  "root": "D:/SmartBuildings_data/stress/scenarios"
+ },
+ {
+  "policy": "baseline:pid_water",
+  "base": "none",
+  "out": "D:/SmartBuildings_data/results/tankfix/pid_water_stressjan",
+  "scenario": "building_train_2__duluth_jan15",
+  "root": "D:/SmartBuildings_data/stress/scenarios"
+ },
+ {
+  "policy": "baseline:pid_water",
+  "base": "none",
+  "out": "D:/SmartBuildings_data/results/tankfix/pid_water_stressjan",
+  "scenario": "building_train_7__duluth_jan15",
+  "root": "D:/SmartBuildings_data/stress/scenarios"
+ },
+ {
+  "policy": "baseline:pid_water",
+  "base": "none",
+  "out": "D:/SmartBuildings_data/results/tankfix/pid_water_stressjan",
+  "scenario": "building_train_1__helena_jan15",
+  "root": "D:/SmartBuildings_data/stress/scenarios"
+ },
+ {
+  "policy": "baseline:pid_water",
+  "base": "none",
+  "out": "D:/SmartBuildings_data/results/tankfix/pid_water_stressjan",
+  "scenario": "building_train_5__helena_jan15",
+  "root": "D:/SmartBuildings_data/stress/scenarios"
+ },
+ {
+  "policy": "baseline:pid_water",
+  "base": "none",
+  "out": "D:/SmartBuildings_data/results/tankfix/pid_water_stressjan",
+  "scenario": "building_train_4__newyork_jan15",
+  "root": "D:/SmartBuildings_data/stress/scenarios"
+ },
+ {
+  "policy": "baseline:pid_water",
+  "base": "none",
+  "out": "D:/SmartBuildings_data/results/tankfix/pid_water_stressjan",
+  "scenario": "building_train_8__newyork_jan15",
+  "root": "D:/SmartBuildings_data/stress/scenarios"
+ },
+ {
+  "policy": "baseline:pid_water",
+  "base": "none",
+  "out": "D:/SmartBuildings_data/results/tankfix/pid_water_stressjan",
+  "scenario": "building_train_1__seattle_jan15",
+  "root": "D:/SmartBuildings_data/stress/scenarios"
+ },
+ {
+  "policy": "baseline:pid_water",
+  "base": "none",
+  "out": "D:/SmartBuildings_data/results/tankfix/pid_water_stressjan",
+  "scenario": "building_train_5__seattle_jan15",
+  "root": "D:/SmartBuildings_data/stress/scenarios"
+ }
+]

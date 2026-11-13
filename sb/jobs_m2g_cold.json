@@ -1,0 +1,74 @@
+[
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "f_heat_safety": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2g_boost45",
+  "scenario": "building_train_8__fairbanks_8"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "f_heat_safety": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2g_boost45",
+  "scenario": "building_train_1__fairbanks_1"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "f_heat_safety": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2g_boost45",
+  "scenario": "building_train_4__denver_2"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "f_heat_safety": 0.45
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2g_boost45",
+  "scenario": "building_train_2__fairbanks_2"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_learn": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2g_learn",
+  "scenario": "building_train_8__fairbanks_8"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_learn": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2g_learn",
+  "scenario": "building_train_1__fairbanks_1"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_learn": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2g_learn",
+  "scenario": "building_train_4__denver_2"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "glide_learn": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2g_learn",
+  "scenario": "building_train_2__fairbanks_2"
+ }
+]

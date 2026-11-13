@@ -1,0 +1,7 @@
+% Written by sb/run_trained.py --read from results/rl_test (do not edit by hand).
+\begin{tabular}{llcccc}\toprule
+Policy & Training & Loss & Comfort & Loss / pid\_water & Below pid\_water\\\midrule
+pid\_water & none (official baseline) & 0.07982 & 0.06341 & 1 & --\\
+trained residual & 38\,h, 3.3\,M steps & 0.07141 & 0.06016 & 0.89 (0.83--0.95) & 11 of 12\\
+v16 & none (learns online) & 0.01427 & 0.00048 & 0.18 (0.13--0.24) & 12 of 12\\\bottomrule
+\end{tabular}

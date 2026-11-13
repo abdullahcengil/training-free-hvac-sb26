@@ -1,0 +1,106 @@
+[
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "f_heat_safety": 0.45,
+   "safety_k": 4.0
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2g_boost45_sk4",
+  "scenario": "building_train_8__fairbanks_8"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "f_heat_safety": 0.45,
+   "safety_k": 4.0
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2g_boost45_sk4",
+  "scenario": "building_train_1__fairbanks_1"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "f_heat_safety": 0.45,
+   "safety_k": 4.0
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2g_boost45_sk4",
+  "scenario": "building_train_4__denver_2"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_g.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "f_heat_safety": 0.45,
+   "safety_k": 4.0
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2g_boost45_sk4",
+  "scenario": "building_train_2__fairbanks_2"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_c.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2c",
+  "scenario": "building_train_2__denver_8"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_c.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2c",
+  "scenario": "building_train_2__singapore_1"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_c.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2c",
+  "scenario": "building_train_4__fairbanks_4"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_c.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2c",
+  "scenario": "building_train_4__singapore_3"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_c.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2c",
+  "scenario": "building_train_5__denver_3"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_c.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2c",
+  "scenario": "building_train_1__denver_7"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_c.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2c",
+  "scenario": "building_train_7__denver_5"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_c.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2c",
+  "scenario": "building_train_7__singapore_6"
+ }
+]

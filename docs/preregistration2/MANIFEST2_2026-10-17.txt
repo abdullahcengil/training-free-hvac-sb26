@@ -1,0 +1,30 @@
+# seed 7101 rejected by the generator's own check: ValueError: seed 7101 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 17.76 m2): room_25 17.76 m2. A zone this small is a floor plan artifact, not a room, and it diverges in simulati
+# seed 7107 rejected by the generator's own check: ValueError: seed 7107 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 9.00 m2): room_17 9.00 m2. A zone this small is a floor plan artifact, not a room, and it diverges in simulation
+# seed 7108 rejected by the generator's own check: ValueError: seed 7108 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 1.68 m2): room_27 1.68 m2. A zone this small is a floor plan artifact, not a room, and it diverges in simulation
+# seed 7109 rejected by the generator's own check: ValueError: seed 7109 produces 8 zone(s) below the 20.0 m2 minimum floor area (smallest 3.04 m2): room_3 3.04 m2, room_69 5.76 m2, room_125 6.40 m2, room_136 7.68 m2, room_42 15.12 m2, room_87 17.12 m
+# seed 7110 rejected by the generator's own check: ValueError: seed 7110 produces 2 zone(s) below the 20.0 m2 minimum floor area (smallest 9.12 m2): room_1 9.12 m2, room_16 12.48 m2. A zone this small is a floor plan artifact, not a room, and it diver
+702de8e8a8f80604cc8195e802b7b702942e6cf33ef9b29af8c8b0cdd9a90776  raw/building_7111.yaml
+60bfa178b1272d32bcbda90460e0a6046392f8f75609d8b668a52f54802ff31f  scaled/building_7111.yaml  (s=0.6595; slot 1)
+41ef97f80281fa6a26ee477762cf5bc88ff706d6ce0c8603bb48415b0ce9b3ff  raw/building_7102.yaml
+10980f90c1666e4de27a97dc7fd8ec36a1990d527a657181bca12b119b5539eb  scaled/building_7102.yaml  (s=0.7133; slot 2)
+# seed 7103 rejected by the generator's own check: ValueError: seed 7103 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 15.48 m2): room_25 15.48 m2. A zone this small is a floor plan artifact, not a room, and it diverges in simulati
+145d45e09ba1efa85690dde97f753bc506989bfcfbe9287b80e549d67a6ce862  raw/building_7112.yaml
+09dbe6d4522658d3d43e7ae202206976e5fb54e56a428a51c6b3990fc34d90ab  scaled/building_7112.yaml  (s=0.6815; slot 3)
+63e4d1e6c62312be9ecf70da8760ac4f9621d444f1b9d9610a7873ff0275fc99  raw/building_7104.yaml
+c4d0830f4b5eaada82af23fb9f6a448008757d1680643370d3ecdb7205b64779  scaled/building_7104.yaml  (s=0.6206; slot 4)
+b12d6b8bcbf5e7b7e1a7b4ec419d1b580f1117c6b6a21c18fcfd8f6db4ca284a  raw/building_7105.yaml
+0d4f22b20d26650c8d7dc3e01a0a750a3710650bf68174f25f562a4cc6806f25  scaled/building_7105.yaml  (s=0.6495; slot 5)
+06b44854c416a4a0504d9535b28ad81c9e5c4a47ed775dce69415fb5e4709a36  raw/building_7106.yaml
+cb5618cb409fdfeda39418b081d44d000dfd2090869c411e5b4300cc0c542514  scaled/building_7106.yaml  (s=0.6795; slot 6)
+0d9066518b19856cb9569815dc1c8625c914fee805b3812099c5cad77c7334ec  scenarios/building_7102/denver_3/config.gin
+a65c1890b1689a8bde4701854a42d45ea7528df1c27373bd958ee27060664944  scenarios/building_7102/minneapolis_3/config.gin
+88be60d67d6b138dbcd5e660a4073a43a272d2fc3611206204d171aa60a44979  scenarios/building_7104/minneapolis_6/config.gin
+2a0a67c55249c4cd27111b84a46387304082483b7e7623880b94c44fdb072982  scenarios/building_7104/phoenix_1/config.gin
+fb7e920bedc936e7e6b444987e940e711cc670389219353e2ac03cd0ad951cc1  scenarios/building_7105/minneapolis_7/config.gin
+3e380ebddbbb7b6b12cc6c93389669888a12e3cfc4de02cf23fc4a36fc68542d  scenarios/building_7105/singapore_3/config.gin
+0479325e8fba392085f431f91522b83b1691f73fa96ed8ad220a30620ca979cd  scenarios/building_7106/fairbanks_7/config.gin
+da86fbfc674b2cc01e07fb197fca9dd48198c7c4a33bedd5073b2bbb9aae9161  scenarios/building_7106/minneapolis_8/config.gin
+1714687afd587e044134e0071b1d1f9aede60fd222009980b32ba34bcc81d25e  scenarios/building_7111/atlanta_5/config.gin
+7ab51f837cbca8559fa3f08aaf38331ca4c4967fcf0f249acf092a5c18874ed6  scenarios/building_7111/minneapolis_2/config.gin
+6b9fbe0707999881d34f309278fb5dca0fab866cfe38bd079b97282eaae7d8d4  scenarios/building_7112/fairbanks_4/config.gin
+ad908c3ff6de5c458e576ae9913dbf4b986dbcc5595c22607ac27c2e0021c028  scenarios/building_7112/minneapolis_4/config.gin

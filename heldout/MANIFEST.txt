@@ -1,0 +1,27 @@
+f60ca47d50accf91e8c0042f006ab2084ad80d0a976f8450d5273510ac3c97c7  raw/building_7001.yaml
+9e59e74d855d27c503ab21fb783076bb022d4738b1ccf376e03c76463251b065  scaled/building_7001.yaml  (s=0.6271; slot 1)
+232141e11dd8d357dd09b1699966533428bf9b43cd79067141afb16d2d8a6eee  raw/building_7002.yaml
+6e761e54ee271c590183b4fed44a7c5977854927c6a94947dd22ce770d696eb2  scaled/building_7002.yaml  (s=0.6268; slot 2)
+19fd8e700e23f18589c0693177b0e690936027675a37aa5795ae2fe40b3bea1f  raw/building_7003.yaml
+442e9420ffd222efe2b78eb3a0fd7f66d0f8d08f596318ca95c605e6797fcd33  scaled/building_7003.yaml  (s=0.6310; slot 3)
+# seed 7004 rejected by the generator's own check: ValueError: seed 7004 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 5.04 m2): room_28 5.04 m2. A zone this small is a floor plan artifact, not a room, and it diverges in simulation
+359b6df50d1106840321342b95658d677d6864af9fe9b976d3dd0677e1c5e12b  raw/building_7007.yaml
+9f5a9346505a204f75b9db5e1c9bcf658e7e40a89fd95e16895285ef53031bac  scaled/building_7007.yaml  (s=0.6399; slot 4)
+# seed 7005 rejected by the generator's own check: ValueError: seed 7005 produces 1 zone(s) below the 20.0 m2 minimum floor area (smallest 2.60 m2): room_17 2.60 m2. A zone this small is a floor plan artifact, not a room, and it diverges in simulation
+e4b0fd9f641587ed9abf6912e4139752b1ea1bbaec26339879a838c731220d54  raw/building_7008.yaml
+2c9f7e67edc91811afb64d4de6530096cb77b23d3190165cb285582de0844a2e  scaled/building_7008.yaml  (s=0.6206; slot 5)
+# seed 7006 rejected by the generator's own check: ValueError: seed 7006 produces 2 zone(s) below the 20.0 m2 minimum floor area (smallest 1.56 m2): room_10 1.56 m2, room_82 12.48 m2. A zone this small is a floor plan artifact, not a room, and it dive
+2a64b9098f0dad9a61f1b16c77ba5d772496988be3f420e2d4a1df2f70f9d37e  raw/building_7009.yaml
+0de6d6c030966e4552ced62d8eda8bc0323b84713b75548eab405f0684d34e4a  scaled/building_7009.yaml  (s=0.7324; slot 6)
+90384ffe99f51a9f26d01293631e716f78159e8ac084a1192917eb16075b039d  scenarios/building_7001/atlanta_4/config.gin
+f6d0177b44069393abcdd59e24285603b4febe7bb5a2c675319e6a86345a215c  scenarios/building_7001/phoenix_2/config.gin
+2e0765fbd5f895eaa27a9a1f075fd02bcc5d3a85f13dde43a6242fa59c3f7af2  scenarios/building_7002/denver_1/config.gin
+466ee9075741ab9e56285f9f246af779ac9e9ffd4123b5b2e844c1a7f85eaefa  scenarios/building_7002/singapore_2/config.gin
+7efbfac03171cfecff7028fdc523a29bc9b6f88b3c86b620bb410cca950f38d4  scenarios/building_7003/fairbanks_3/config.gin
+7f858af74b2175c2b835d98fd62ad6db73640088252b339b3c90faaf0e479b52  scenarios/building_7003/minneapolis_1/config.gin
+ee5c492a67e2aba0159923f03dfbb163fb5365c84e2f34f8a91da9631a9290b2  scenarios/building_7007/atlanta_7/config.gin
+e51dcae976522a1adf54ace56657c58d657efb18486ab66462e76d3e6d3051d4  scenarios/building_7007/phoenix_7/config.gin
+8c310b51e4697182e665229c55e1c5a6d41f9291bffffde9230e5496eb379a77  scenarios/building_7008/denver_4/config.gin
+4044bff9a557c4107eeaa6b4dfd739d00e496e34da6f7d0daf7636e4cb1b758a  scenarios/building_7008/singapore_5/config.gin
+9f7b081babc9b4f9b6c3ab237a6032ae78b801a6e17bd7c58b09c4a95b1910c2  scenarios/building_7009/fairbanks_6/config.gin
+da21279caeb8bdb2bc54b5fa35edda725bb9b451f5ef475eb863d0763e803c62  scenarios/building_7009/minneapolis_5/config.gin

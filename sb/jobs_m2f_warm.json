@@ -1,0 +1,130 @@
+[
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_f.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "precool": 1,
+   "precool_h": 2.0,
+   "precool_k": 1.5
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2f_pc2",
+  "scenario": "building_train_8__phoenix_4"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_f.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "precool": 1,
+   "precool_h": 2.0,
+   "precool_k": 1.5
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2f_pc2",
+  "scenario": "building_train_8__singapore_7"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_f.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "precool": 1,
+   "precool_h": 2.0,
+   "precool_k": 1.5
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2f_pc2",
+  "scenario": "building_train_7__atlanta_8"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_f.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "precool": 1,
+   "precool_h": 2.0,
+   "precool_k": 1.5
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2f_pc2",
+  "scenario": "building_train_1__phoenix_5"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_f.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "precool": 1,
+   "precool_h": 2.0,
+   "precool_k": 1.5,
+   "guard": 0.0
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2f_pc2g0",
+  "scenario": "building_train_8__phoenix_4"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_f.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "precool": 1,
+   "precool_h": 2.0,
+   "precool_k": 1.5,
+   "guard": 0.0
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2f_pc2g0",
+  "scenario": "building_train_8__singapore_7"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_f.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "precool": 1,
+   "precool_h": 2.0,
+   "precool_k": 1.5,
+   "guard": 0.0
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2f_pc2g0",
+  "scenario": "building_train_7__atlanta_8"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_f.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "precool": 1,
+   "precool_h": 2.0,
+   "precool_k": 1.5,
+   "guard": 0.0
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2f_pc2g0",
+  "scenario": "building_train_1__phoenix_5"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_f.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "margin_cool": 0.25
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2f_mc25",
+  "scenario": "building_train_8__phoenix_4"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_f.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "margin_cool": 0.25
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2f_mc25",
+  "scenario": "building_train_8__singapore_7"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_f.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "margin_cool": 0.25
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2f_mc25",
+  "scenario": "building_train_7__atlanta_8"
+ },
+ {
+  "policy": "D:/SmartBuildings_data/frozen/zonal_v11dev_f.py:TransferPolicy",
+  "kwargs": {
+   "mass_model": 1,
+   "margin_cool": 0.25
+  },
+  "out": "D:/SmartBuildings_data/results/dev11_8640/m2f_mc25",
+  "scenario": "building_train_1__phoenix_5"
+ }
+]

@@ -1,0 +1,8 @@
+{
+  "cu": {"heat_cu": 1},
+  "rc": {"rec_cu": 1},
+  "curc": {"heat_cu": 1, "rec_cu": 1},
+  "hp12": {"heat_price": 1, "heat_caps": [0.6, 1.0], "heat_h": 12.0},
+  "hpz": {"heat_price": 1, "heat_price_zone": 1, "heat_caps": [0.6, 1.0], "heat_h": 12.0},
+  "hpzrc": {"heat_price": 1, "heat_price_zone": 1, "heat_caps": [0.6, 1.0], "heat_h": 12.0, "rec_cu": 1}
+}
