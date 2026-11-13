@@ -8,7 +8,7 @@ Code, plans and timestamp proofs for our paper in the [NeurIPS 2026 Smart Buildi
 - Without online learning the loss is 2.68 times higher on twelve unseen full-size buildings (1.50 times on the hidden public windows).
 - A neural policy trained with PPO for 38 hours reached 0.89 times `pid_water`'s loss on the same buildings; Zonal reached a fifth of the trained policy's.
 
-![overview](docs/fig/fig_overview.png)
+![overview](https://raw.githubusercontent.com/abdullahcengil/training-free-hvac-sb26/main/docs/fig/fig_overview.png)
 
 ## Quick start
 
@@ -41,7 +41,7 @@ Development used the 30 shipped training scenarios and buildings generated for d
 
 Results: [docs/RESULTS_HELDOUT.md](docs/RESULTS_HELDOUT.md) (round 1), [docs/RESULTS_ROUND2.md](docs/RESULTS_ROUND2.md) to [docs/RESULTS_ROUND8.md](docs/RESULTS_ROUND8.md); paired statistics in [docs/RESULTS_STATS.md](docs/RESULTS_STATS.md) ([sb/stats.py](sb/stats.py)).
 
-![one zone on one warm day, v7 vs v8](docs/fig/fig_cycle.png)
+![one zone on one warm day, v7 vs v8](https://raw.githubusercontent.com/abdullahcengil/training-free-hvac-sb26/main/docs/fig/fig_cycle.png)
 
 ## Scores
 
