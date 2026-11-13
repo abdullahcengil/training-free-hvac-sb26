@@ -1,21 +1,21 @@
 # Frozen controller code of each pre-registered round
 
-Every round tested code that was fixed before its scenarios were generated or run. Rounds 1-5 name a git commit of
-this repository; round 6 and the Kaggle submissions of v14 and v15 name a file by its SHA-256, kept here byte for byte
+Every round tested code that was fixed before its scenarios were generated or run. Every round's code is kept here byte for byte and named by its SHA-256 (rounds 1-5 were frozen as commits of the private
+working repository; the files below are those commits' `policies/zonal.py`, unchanged)
 (`-text` in `.gitattributes`, so git does not change its line endings).
 
 | round | version | code | SHA-256 (first 16 hex digits) |
 |---|---|---|---|
-| 1 | v7 | `git show ad59466:policies/zonal.py` | ed09634eb1f0486a |
-| 2 | v8 | `git show e8dbcd3:policies/zonal.py` | f612994c6adc3eeb |
-| 3 | v9 | `git show b7e5ec9:policies/zonal.py` | a54725705237603d |
-| 4 | v10 | `git show 24f07c3:policies/zonal.py` | 56090bd0d7877de6 |
-| 5 | v11 (also v12, v13 with other parameters) | `git show aa71ade:policies/zonal.py` | 3b6c1135c9ff4028 |
+| 1 | v7 | `frozen/zonal_v7_round.py` (commit ad59466) | ed09634eb1f0486a |
+| 2 | v8 | `frozen/zonal_v8_round.py` (commit e8dbcd3) | f612994c6adc3eeb |
+| 3 | v9 | `frozen/zonal_v9_round.py` (commit b7e5ec9) | a54725705237603d |
+| 4 | v10 | `frozen/zonal_v10_round.py` (commit 24f07c3) | 56090bd0d7877de6 |
+| 5 | v11 (also v12, v13 with other parameters) | `frozen/zonal_v11_round.py` (commit aa71ade) | 3b6c1135c9ff4028 |
 | 6 | v14, v15 | `frozen/zonal_v14f.py` | 0a31d331ee3dd867 |
+| 7, 8 | v16 (round 8: v16 with one option on) | `frozen/zonal_v16f.py` | af9c0d2bff35568b |
 
 The full hash of `zonal_v14f.py`, as stamped in `docs/preregistration6h/PREREGISTRATION_6_2026-10-30.md`, is
-0a31d331ee3dd867b73577f1f8c0d4624725db847aa9ed80b3a416c186232b13. Check with `sha256sum frozen/zonal_v14f.py`, and
-for rounds 1-5 with `git show <commit>:policies/zonal.py | sha256sum`.
+0a31d331ee3dd867b73577f1f8c0d4624725db847aa9ed80b3a416c186232b13. Check any of them with `sha256sum frozen/<file>`.
 
 Reproduction check (30 Oct 2026, read 16:05 by `date`): `zonal_v14f.py` from this folder with
 `submission/V15_PARAMS.json`, run on building_train_1 / atlanta_2 for the full 8640 steps, gave every reward term

@@ -1,6 +1,26 @@
 # Zonal: a training-free HVAC controller tested in eight pre-registered blind rounds
 
-Entry for the [NeurIPS 2026 Smart Buildings Challenge](https://www.kaggle.com/competitions/neurips-2026-smart-buildings) (paper track and leaderboard). Paper: [paper/main.tex](paper/main.tex).
+Code, plans and timestamp proofs for our paper in the [NeurIPS 2026 Smart Buildings Challenge](https://www.kaggle.com/competitions/neurips-2026-smart-buildings) (paper track, round one). Paper: [PDF](paper/main.pdf) · [OpenReview](https://openreview.net/forum?id=BOqU22idCJ).
+
+**In short.** The challenge asks for HVAC control that works in buildings it has never seen. Zonal has no training: it learns a small model of each zone online while the building runs, and plans around the delays it measured. It was tested in eight blind rounds on buildings it had never seen; each round's plan and pass marks were fixed and timestamped in a Bitcoin block (OpenTimestamps) before the results, and the failed rounds are reported too.
+
+- Below the official `pid_water` baseline in all 122 scenarios outside development; public score 0.01031 against 0.06404.
+- Without online learning the loss is 2.68 times higher on twelve unseen full-size buildings (1.50 times on the hidden public windows).
+- A neural policy trained with PPO for 38 hours reached 0.89 times `pid_water`'s loss on the same buildings; Zonal reached a fifth of the trained policy's.
+
+![overview](docs/fig/fig_overview.png)
+
+## Quick start
+
+With the official [starter kit](https://github.com/smart-buildings-2026/starter-kit) installed (`uv sync`), run the final version (v16) on one training scenario:
+
+```bash
+python -m sb.run --policy frozen/zonal_v16f.py:TransferPolicy     --kwargs "$(cat submission/V16_PARAMS.json)"     --scenarios <starter-kit>/smart_buildings/training_scenarios     --only building_train_1__atlanta_2 --out results/v16_demo --steps 8640 --workers 1
+```
+
+A 30-day scenario takes 12 to 30 minutes on one core. The Kaggle notebook of the same version is `submission/zonal_v16_submission.ipynb`.
+
+## How it works
 
 **Idea: measure, then control.** An open-loop probe of the simulator ([sb/probe.py](sb/probe.py)) showed that heat commanded at one step shows up in a zone's measured temperature one step later, that the room air relaxes within about three steps (15 minutes), and that the floor slab lags the air by about four hours. The controller is built on these facts. Each zone gets a small two-node model (room air and slab), five numbers learned online by recursive least squares while the building runs; the controller first predicts where the zone will be from the heat already in the pipe, then picks the next heat so that the zone lands on its target. A per-zone disturbance estimate removes steady offsets (offset-free MPC). The plant setpoints follow standard VAV sequences: supply-air temperature chosen by estimated cost, static-pressure and pump-pressure reset, and setbacks that let each zone float only as far as its own model can bring it back in time. The hot-water supply temperature is held at 350 K, so the scores do not depend on an accounting issue in the simulator's tank model. No training, no per-building tuning.
 
@@ -48,13 +68,14 @@ No parameter of v7-v16 (the versions in the paper) was chosen by the public scor
 - **Size.** The hidden buildings appear to be full size, while the shipped ones are scaled down; buildings run unscaled, at the size the generator draws, reproduce much of the gap between our training and public scores, through the cooling bill in hot weather and part of the heating in deep cold ([docs/BIG_BUILDINGS.md](docs/BIG_BUILDINGS.md), [docs/HIDLIKE.md](docs/HIDLIKE.md)).
 - **Empty holidays.** The occupancy model keeps everybody at home on US federal holidays, but the competition's setpoint schedule lists no holidays and stays in comfort mode, while the comfort term is zero when nobody is in. From v15, a work day on which nobody has come in an hour after the comfort period starts runs as unoccupied; the controller sees only the building's occupant count, not the date ([docs/HOLIDAY.md](docs/HOLIDAY.md)).
 - **Tank accounting.** When the hot-water setpoint moves, the gas billed and the heat the coils receive can differ (reported on the competition forum). We hold the setpoint; under the proposed energy-balanced tank our score changes by at most 0.0002 % on the five scenarios checked (starter-kit pull request 2; our copy of the fix is `sb/make_tankfix.py`).
-- **Tracker.** The starter kit's occupancy logging changed the returns until a fix on 19 Oct 2026 (starter-kit commit 9567419), and the shipped baseline returns predate the fix (pid_water run directly loses 0.7-3.6 % more on five scenarios; docs/TUNING_LOG.md, 30 Oct). All our runs step the environment directly ([sb/run.py](sb/run.py)).
+- **Tracker.** The starter kit's occupancy logging changed the returns until a fix on 19 Oct 2026 (starter-kit commit 9567419), and the shipped baseline returns predate the fix (pid_water run directly loses 0.7-3.6 % more on five scenarios). All our runs step the environment directly ([sb/run.py](sb/run.py)).
 
 ## Layout
 
 | Path | What |
 |---|---|
 | `policies/zonal.py` | The controller, with every development option (numpy only) |
+| `frozen/` | The exact code each blind round tested, with SHA-256 hashes ([frozen/README.md](frozen/README.md)) |
 | `submission/zonal_v*_submission.ipynb`, `submission/V*_PARAMS.json` | The exact code and parameters of each submitted version ([sb/make_notebook.py](sb/make_notebook.py)) |
 | `sb/run.py` | Rollouts; steps the environment directly |
 | `sb/memsched.py` | Restartable scheduler that keeps at most three simulations within the machine's memory |
@@ -64,6 +85,7 @@ No parameter of v7-v16 (the versions in the paper) was chosen by the public scor
 | `docs/DEVIATIONS.md` | Every departure from a plan |
 | `docs/STRESS_TEST.md` | The controller in climates absent from training |
 | `paper/` | Paper and figures |
+| `analysis/`, other `sb/` scripts | Every analysis and run script used during development |
 | `audit/` | Read-only scripts that recompute the paper's numbers from the result files (`recompute.py`, `split.py`) and check its page limit |
 
 ## Reproduce
@@ -77,6 +99,18 @@ This is a snapshot of the working repository made on 13 November 2026, with the 
 ## AI assistance
 
 The author used an AI assistant (Claude, Anthropic) to write the code in this repository and to draft the paper's text, then reviewed the paper and verified its results. This is stated in the paper.
+
+## Citation
+
+```bibtex
+@misc{cengil2026zonal,
+  title  = {Zonal: a training-free HVAC controller tested in eight pre-registered blind rounds},
+  author = {Cengil, Abdullah Hamza},
+  year   = {2026},
+  note   = {NeurIPS 2026 Smart Buildings Challenge, paper track},
+  url    = {https://openreview.net/forum?id=BOqU22idCJ}
+}
+```
 
 ## License
 
