@@ -1,6 +1,6 @@
 # Zonal: a training-free HVAC controller tested in eight pre-registered blind rounds
 
-Code, plans and timestamp proofs for our paper in the [NeurIPS 2026 Smart Buildings Challenge](https://www.kaggle.com/competitions/neurips-2026-smart-buildings) (paper track, round one). Paper: [PDF](paper/main.pdf) · [OpenReview](https://openreview.net/forum?id=BOqU22idCJ).
+Code, plans and timestamp proofs for our paper in the [NeurIPS 2026 Smart Buildings Challenge](https://www.kaggle.com/competitions/neurips-2026-smart-buildings) (paper track, round one). Paper: [PDF](paper/main.pdf) (submitted on OpenReview, submission 38; not public yet).
 
 **In short.** The challenge asks for HVAC control that works in buildings it has never seen. Zonal has no training: it learns a small model of each zone online while the building runs, and plans around the delays it measured. It was tested in eight blind rounds on buildings it had never seen; each round's plan and pass marks were fixed and timestamped in a Bitcoin block (OpenTimestamps) before the results, and the failed rounds are reported too.
 
@@ -108,7 +108,7 @@ The author used an AI assistant (Claude, Anthropic) to write the code in this re
   author = {Cengil, Abdullah Hamza},
   year   = {2026},
   note   = {NeurIPS 2026 Smart Buildings Challenge, paper track},
-  url    = {https://openreview.net/forum?id=BOqU22idCJ}
+  url    = {https://github.com/abdullahcengil/training-free-hvac-sb26}
 }
 ```
 
