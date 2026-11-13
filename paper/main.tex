@@ -500,11 +500,6 @@ Empty zones cool to $-1.7\,^\circ$C in deep cold; a 5\,$^\circ$C frost floor cos
 architecture, budget and seed) says little about what training can reach.
 
 \section*{AI assistance, code and compute}
-% 8 Nov 2026: the author asked the assistant to write the abstract, introduction and conclusion too, so the statement
-% covers the whole text. Kaggle competition rules, "Submission Code Requirements" (read 29 Oct): during the competition
-% (to 15 Jan 2027), code shared publicly must be shared on Kaggle (discussion forum or a notebook of this competition),
-% and private sharing is not allowed. Competition data may not be redistributed (CC-BY-NC-SA 4.0; no copies in a public
-% repo). Author's choice (29 Oct): release after the competition, not a public Kaggle notebook now.
 The author used an AI assistant (Claude, Anthropic) to write the code and to draft the text, then reviewed the paper
 and verified its results. Code and result files will be released when the competition ends (15 January 2027). All runs
 used the CPU of one laptop with 16\,GB of memory.
@@ -731,15 +726,10 @@ the generator draws, the same buildings reproduce the public pattern (Section~\r
 Section~\ref{sec:stress} found no general loss of advantage in new climates. The leading public scores
 (0.0051--0.0060 for the first ten on 27 October) are at or below what we estimate v11 would score if heating were
 free (0.0060--0.0063). A probe gives a direct reading: v14 with only its hot-water setpoint changed so that it uses
-% "not one of our final selections": true since 08 Nov 2026 13:55 (`date`), when the final selections on Kaggle's
-% Submissions page were set (2/2); since 15:37 the same day they are v16 and c6fhm40 (docs/TUNED_CHECK.md). With fewer than two picks Kaggle would
-% auto-select the best public scores, which include this probe; any later change must keep the probe out.
 the tank accounting issue (Section~\ref{sec:method}; not our method, and not one of our final selections) scored about
 0.00700 in public (submitted 27 October 2026; rank 32 of 434 on 29 October), a third below v14. We do not give its setpoint schedule: it is not a control method, and the hosts are correcting the simulator. At least a third of v14's public loss is
 therefore heating gas that the issue can remove, and ranks near the top of the board may reflect the issue as much as
 control (an inference: we cannot see other teams' policies).
-% tankbug/run_train30_saw.py --read (29 Oct, 8640 steps); 0.95 = sum of v14's eight cold-window losses at full size
-% over the same sum scaled (0.08475 / 0.08889; docs/BIG_BUILDINGS.md, both result tables); 0.002273 x 0.95 / 0.01048 = 21 %.
 On the 30 training scenarios the same probe is 31.0\,\%
 below v14 (0.005055 against 0.007328; tankbug/run\_train30\_saw.py). It removes 56--61\,\% in eight scenarios (four in
 Fairbanks, three in Denver, one in Atlanta) and nothing in the six Singapore scenarios. So heating is about as large a
